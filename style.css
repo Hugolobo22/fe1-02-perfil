@@ -22,7 +22,9 @@ html {
 }
 
 body {  
-        background-color: black; 
+        background  : black; 
+        border-radius: 50px;
+        border:10px #39FF14 solid;
         width: 100vw;
         max-width: 650px;
         text-align: center;
@@ -37,27 +39,27 @@ body {
     margin-top: -130px;
     width: 200px;
     height: 200px;
-    border-radius: 110px;
+    border-radius: 75px;
     object-fit: cover;
-    border: 10px greenyellow solid;
+    border: 10px #39FF14 solid;
   }
 img {
     border-radius: 50px;
-    border: 10px greenyellow solid;
+    border: 10px #39FF14 solid;
 
 }
 
 h1 { 
     color: black; 
     font-size: 40px;
-    background-color: greenyellow;
+    background-color: #39FF14;
     font-family: rubik burned ;
     text-align: center;
 }
 
 h2 { 
     color: black; 
-    background-color: greenyellow;
+    background-color: #39FF14;
     text-align: center;
     font-family: bebas neue;
 }
@@ -113,4 +115,5 @@ h3 {
 
 #steam {
     color: greenyellow;
+    font-family: "Libre Barcode 128 Text", system-ui;
 }
